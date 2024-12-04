@@ -1,5 +1,5 @@
 # Sistema de Login (Hsyst Auth)
-![Logo Hsyst Auth](./Hsyst_Auth-semfundo.png)
+![Logo Hsyst Auth](./Hsyst_Auth-semfundo.png) (Obs:. Hsyst Auth's Logo)
 
 ## Descrição
 Criar um sistema de autênticação realmente seguro, para finalmente tornar essa joça algo que não seja uma bomba atômica de XSS.
