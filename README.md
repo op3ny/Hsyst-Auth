@@ -16,8 +16,7 @@ O endpoint crypt1, é responsável por receber os dados em plain text, ou seja, 
 
 ---
 
-**Exemplo de uso do crypt1**
-seusiteaqui.com/crypt1?email=op3n@hsyst.com.br&senha=1234
+**Exemplo de uso do crypt1**: seusiteaqui.com/crypt1?email=op3n@hsyst.com.br&senha=1234
 
 
 ## Endpoint /crypt2
@@ -26,8 +25,7 @@ O endpoint crypt2, é responsável por receber e conferir e criptografar os dado
 
 ---
 
-**Exemplo de uso do crypt2**
-seusiteaqui.com/crypt2?email=op3n@hsyst.com.br&senha=1234&crypt1=**JWT_RECEBIDO_PELO_ENDPOINT_CRYPT1**
+**Exemplo de uso do crypt2**: seusiteaqui.com/crypt2?email=op3n@hsyst.com.br&senha=1234&crypt1=**JWT_RECEBIDO_PELO_ENDPOINT_CRYPT1**
 
 
 # Endpoint /register
@@ -36,8 +34,7 @@ O endpoint /register é responsável por receber o Token AES gerado pelo crypt2,
 
 ---
 
-**Exemplo de uso do register**
-seusiteaqui.com/register?tokenReg=**SEU_TOKEN_AES_AQUI**
+**Exemplo de uso do register**: seusiteaqui.com/register?tokenReg=**SEU_TOKEN_AES_AQUI**
 
 
 # Endpoint /login
@@ -46,8 +43,7 @@ O endpoint /login é responsável por receber o Token AES (igualmente ao /regist
 
 ---
 
-**Exemplo de uso do login**
-seusiteaqui.com/login?tokenReg=**SEU_TOKEN_AES_AQUI**
+**Exemplo de uso do login**: seusiteaqui.com/login?tokenReg=**SEU_TOKEN_AES_AQUI**
 
 
 
