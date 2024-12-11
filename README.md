@@ -2,7 +2,7 @@
 ![Logo Hsyst Auth](https://github.com/Hsyst/Hsyst-Auth/blob/main/Hsyst_Auth-semfundo.png)
 
 ## Descrição
-Criar um sistema de autenticação seguro de ponta a ponta, no qual mesmo com os dados interceptados, se torna muito dificil capturar os dados.
+Criar um sistema de autenticação seguro de ponta a ponta, no qual mesmo com os dados interceptados, se torna muito dificil decifrar os dados.
 
 ---
 
