@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
 // Chave fornecida (ciferaes) com 32 bytes em formato hexadecimal
-const ciferaes = "bcf813e8a5517f9c1c634dfb4f1017c2e7ca3818f0a4ec222261aa54576965fa";
+const ciferaes = "1234";
 
 // Verifique se a chave tem exatamente 32 bytes (64 caracteres hexadecimais)
 if (Buffer.from(ciferaes, 'hex').length !== 32) {
@@ -20,8 +20,8 @@ function generateTokenAES(email, senha) {
 }
 
 // Exemplo de dados para criptografar
-const email = 'humbertodzard2@gmail.com';
-const senha = 'humfla321';
+const email = 'ex2';
+const senha = 'ex1';
 
 const tokenAES = generateTokenAES(email, senha);
 console.log('Token AES:', tokenAES);
