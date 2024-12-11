@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
 // Chave secreta fornecida (em formato hexadecimal)
-const ciferaes = "bcf813e8a5517f9c1c634dfb4f1017c2e7ca3818f0a4ec222261aa54576965fa";
+const ciferaes = "1234";
 
 // Converter a chave hexadecimal para um buffer de 32 bytes
 const key = Buffer.from(ciferaes, 'hex');
