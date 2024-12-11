@@ -31,7 +31,7 @@ function decryptAES(encryptedText) {
 }
 
 // Exemplo de texto criptografado (substitua pelo seu valor criptografado real)
-const encryptedText = 'b391e91cf577646af247c0f9202f71da185cbf096ebacd5a90bc34964396a67ec94c3a1c7a15338ed2273b1bcf39d74b'; // Coloque seu texto cifrado aqui
+const encryptedText = 'eusla'; // Coloque seu texto cifrado aqui
 
 // Descriptografar o texto
 const decryptedText = decryptAES(encryptedText);
