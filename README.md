@@ -160,6 +160,10 @@ Obs:. "Também é interessante colocar em seu site, um botão para realizar o lo
 
 Para executar o servidor, é bem simples. Supondo que você já tenha baixado daqui tudo certo, basta executar na pasta principal (aonde tem os arquivos JS) e executar o comando `npm install crypto express jsonwebtoken sqlite3` e depois `npm run main`.
 
+---
+
+Caso deseje a versão com SSL, supondo novamente que você tenha feito o download desse repositório e esteja na raiz (pasta com os arquivos JS), basta executar os comandos `npm install crypt express jsonwebtoken sqlite3 fs https` e depois `npm run main-ssl`
+
 
 ---
 ---
