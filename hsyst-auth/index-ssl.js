@@ -1,4 +1,5 @@
 // Caso você já tenha executado esse script, e portanto, tenha o tokens.db criado, ele dará erro. Por isso, comente a linha 47.
+// Altere as linhas 19, 20, 12, 13 e 11
 
 const https = require('https');
 const express = require('express');
@@ -194,8 +195,8 @@ app.get('/login', (req, res) => {
   }
 });
 
-app.listen(port, '0.0.0.0', () => {
-  console.log(`Servidor rodando em http://0.0.0.0:${port}`);
+app.listen("80", '0.0.0.0', () => {
+  console.log(`Servidor rodando em http://0.0.0.0:80`);
 });
 
 // Crie o servidor HTTPS
