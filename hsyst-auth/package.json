@@ -6,7 +6,7 @@
   "scripts": {
     "gen": "node dev-tools/gen-aes.js",
     "main": "node index.js",
-    "main-ssl": "node index-ssl.js"
+    "main-ssl": "node index-ssl.js",
     "decrypt": "node dev-tools/decrypter.js"
   },
   "repository": {
