@@ -1,3 +1,6 @@
+**[Tutorial de uso](./HOW_TO_USE.md)**
+
+
 # Sistema de Login (Hsyst Auth) - Documentação
 ![Logo Hsyst Auth](https://github.com/Hsyst/Hsyst-Auth/blob/main/Hsyst_Auth-semfundo.png)
 
