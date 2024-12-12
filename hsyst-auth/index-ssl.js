@@ -1,4 +1,4 @@
-// Caso você já tenha executado esse script, e portanto, tenha o tokens.db criado, ele dará erro. Por isso, comente a linha 47.
+// Caso você já tenha executado esse script, e portanto, tenha o tokens.db criado, ele dará erro. Por isso, comente a linha 61.
 // Altere as linhas 19, 20, 12, 13 e 11
 
 const https = require('https');
