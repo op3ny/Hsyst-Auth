@@ -1,4 +1,4 @@
-# Sistema de Login (Hsyst Auth)
+# Sistema de Login (Hsyst Auth) - Documentação
 ![Logo Hsyst Auth](https://github.com/Hsyst/Hsyst-Auth/blob/main/Hsyst_Auth-semfundo.png)
 
 ## Descrição
@@ -166,9 +166,18 @@ Caso deseje a versão com SSL, supondo novamente que você tenha feito o downloa
 
 
 ---
----
----
 
+# Dev-tools
+Nosso aplicativo, também tem dev-tools. Eles podem te ajudar a realizar conferências e testes, e caso você esteja configurando pela primeira vez, pode te ajudar a criar sua AES_SECRET.
+
+## secret-aes-gen
+O `npm run secret-aes-gen` é responsável por criar a sua SECRET_AES que é colocada no index.js ou index-ssl.js da Hsyst Auth. Assim, gerando a key com o comprimento correto, e assim, com apenas um comando, a key já está criada.
+
+## test-decrypttoken
+O `npm run test-decrypttoken` permite que você consiga decodificar os tokens AES gerados, ou seja, com o AES_SECRET definido no dev-tools/decrypter.js, você consegue descriptografar os dados no banco de dados, ou até o token que contém os dados do usuário nos cookies!
+
+## test-gentoken
+O `npm run test-gentoken` permite que você gere tokens AES, ou seja, alterando os dados em dev-tools/gen-aes.js, você consegue gerar AES_TOKENs com os dados que quiser, e por exemplo, na hora dos testes, facilitar o registro/login sem precisar ir em todos os endpoints!
 
 # Créditos
 
