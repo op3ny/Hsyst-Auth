@@ -151,6 +151,10 @@ Simples, no cabeçalho do seu HTML (de preferência no inicio do arquivo) você 
 
 E pronto! Em hipotese, se o nome da sua homepage for `index.html`, e você colocar esse script, ele já vai estar pronto para o uso!
 
+---
+
+Obs:. "Também é interessante colocar em seu site, um botão para realizar o logout. O arquivo html que realiza o logout é o /logout.html, e portanto, ao colocar um botão que redirecione para /logout.html em seu site, você já terá a função de logout."
+
 
 ## Como executar o servidor?
 
