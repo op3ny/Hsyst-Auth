@@ -1,4 +1,5 @@
 // Caso você já tenha executado esse script, e portanto, tenha o tokens.db criado, ele dará erro. Por isso, comente a linha 47.
+// Altere as linhas 10, 11 para definir as chaves.
 
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
