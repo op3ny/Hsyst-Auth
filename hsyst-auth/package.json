@@ -4,10 +4,11 @@
   "description": "Um sistema de segurança",
   "main": "index.js",
   "scripts": {
-    "gen": "node dev-tools/gen-aes.js",
+    "test-gentoken": "node dev-tools/gen-aes.js",
     "main": "node index.js",
     "main-ssl": "node index-ssl.js",
-    "decrypt": "node dev-tools/decrypter.js"
+    "test-decrypttoken": "node dev-tools/decrypter.js",
+    "secret-aes-gen": "node dev-tools/genaes.js"
   },
   "repository": {
     "type": "git",
