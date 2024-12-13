@@ -6,6 +6,7 @@
 Esse tutorial será guiado em duas partes, o "Hsyst Auth - Main" e o "Hsyst Auth - SSL", ou seja, a versão normal e a com SSL.
 
 # Hsyst Auth - Main
+Obs:. Todos os comandos que você vai executar, deve ser executado no **TERMINAL** ou **CMD** na raiz do projeto, ou seja, na pasta hsyst-auth tudo minusculo. Além disso, estamos deduzindo que vocẽ tenha o **`NodeJS`** e **`NPM`** instalados.
 
 ## Passo 1
 Instale as dependências para a utilização do serviço.
