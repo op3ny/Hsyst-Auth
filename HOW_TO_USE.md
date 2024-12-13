@@ -42,7 +42,14 @@ Execute o servidor -__-
 npm run main
 ```
 
-## Passo 6 (possiveis problemas)
+---
+
+# Passo 6
+Configure o código do seu site (HTML) para a autenticação. Mas relaxa que a gente facilitou seu trabalho! Basta [clicar aqui](https://github.com/Hsyst/Hsyst-Auth/?tab=readme-ov-file#o-que-devo-alterar-no-meu-c%C3%B3digo) e basicamente, colar esse script no inicio do seu código HTML (**em todas as páginas**)
+
+---
+
+## Passo 7 (possiveis problemas)
 Provavelmente, quando você executar o servidor pela segunda vez, ele vai dar um erro, mas relaxa que isso é esperado. Isso é basicamente ele te falando "Cara, tu vai usar a mesma database ou o que?". Você tem duas opções, a primeira é simplesmente deletar o `tokens.db`. O segundo, é comentar a linha `48`.
 
 ---
@@ -84,6 +91,12 @@ Execute o servidor -__-
 ```sh
 npm run main-ssl
 ```
+---
 
-## Passo 6 (possiveis problemas)
+# Passo 6
+Configure o código do seu site (HTML) para a autenticação. Mas relaxa que a gente facilitou seu trabalho! Basta [clicar aqui](https://github.com/Hsyst/Hsyst-Auth/?tab=readme-ov-file#o-que-devo-alterar-no-meu-c%C3%B3digo) e basicamente, colar esse script no inicio do seu código HTML (**em todas as páginas**)
+
+---
+
+## Passo 7 (possiveis problemas)
 Provavelmente, quando você executar o servidor pela segunda vez, ele vai dar um erro, mas relaxa que isso é esperado. Isso é basicamente ele te falando "Cara, tu vai usar a mesma database ou o que?". Você tem duas opções, a primeira é simplesmente deletar o `tokens.db`. O segundo, é comentar a linha `61`.
