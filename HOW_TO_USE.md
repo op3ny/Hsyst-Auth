@@ -84,8 +84,14 @@ Altere o JWT_SECRET por um valor de sua preferencia, pode ser uma senha que voc�
 
 Exemplo: Antes --> `const JWT_SECRET = "1234"` // Aí você altera `1234` por um valor de sua preferencia. Recomendamos que tenha Números, Letras Maiusculas e Minusculas e Caracteres especiais, e tenha entre 20 a 30 caracteres.
 
+---
 
 ## Passo 5
+Adicione as suas chaves SSL no script. Para isso, abra o arquivo `index-ssl.js` e altere as linhas `19` e `20`.
+
+---
+
+## Passo 6
 Execute o servidor -__-
 
 ```sh
@@ -93,10 +99,10 @@ npm run main-ssl
 ```
 ---
 
-# Passo 6
+# Passo 7
 Configure o código do seu site (HTML) para a autenticação. Mas relaxa que a gente facilitou seu trabalho! Basta [clicar aqui](https://github.com/Hsyst/Hsyst-Auth/?tab=readme-ov-file#o-que-devo-alterar-no-meu-c%C3%B3digo) e basicamente, colar esse script no inicio do seu código HTML (**em todas as páginas**)
 
 ---
 
-## Passo 7 (possiveis problemas)
+## Passo 8 (possiveis problemas)
 Provavelmente, quando você executar o servidor pela segunda vez, ele vai dar um erro, mas relaxa que isso é esperado. Isso é basicamente ele te falando "Cara, tu vai usar a mesma database ou o que?". Você tem duas opções, a primeira é simplesmente deletar o `tokens.db`. O segundo, é comentar a linha `61`.
