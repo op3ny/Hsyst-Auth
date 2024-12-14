@@ -45,7 +45,7 @@ npm run main
 
 ---
 
-# Passo 6
+## Passo 6
 Configure o código do seu site (HTML) para a autenticação. Mas relaxa que a gente facilitou seu trabalho! Basta [clicar aqui](https://github.com/Hsyst/Hsyst-Auth/?tab=readme-ov-file#o-que-devo-alterar-no-meu-c%C3%B3digo) e basicamente, colar esse script no inicio do seu código HTML (**em todas as páginas**)
 
 ---
@@ -100,7 +100,7 @@ npm run main-ssl
 ```
 ---
 
-# Passo 7
+## Passo 7
 Configure o código do seu site (HTML) para a autenticação. Mas relaxa que a gente facilitou seu trabalho! Basta [clicar aqui](https://github.com/Hsyst/Hsyst-Auth/?tab=readme-ov-file#o-que-devo-alterar-no-meu-c%C3%B3digo) e basicamente, colar esse script no inicio do seu código HTML (**em todas as páginas**)
 
 ---
