@@ -7,8 +7,8 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const app = express();
 const port = 3000;
-const JWT_SECRET = "1234";
-const ciferaes = "1234";
+const JWT_SECRET = "JWT_SECRET_THERE";
+const ciferaes = "AES-CBC-256_SECRET_THERE";
 
 if (Buffer.from(ciferaes, 'hex').length !== 32) {
   console.log('A chave deve ter exatamente 32 bytes (64 caracteres hexadecimais).');
