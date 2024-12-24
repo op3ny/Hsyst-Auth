@@ -1,6 +1,8 @@
 # Tutorial de uso
 Caso deseje apenas rodar o Hsyst Auth de forma simples e direta, basta acessar o **[Tutorial de uso](./HOW_TO_USE.md)**
 
+# Download
+Para realizar o download, [clique aqui](https://github.com/Hsyst/Hsyst-Auth/releases/tag/Hsyst-Auth-1.0.0)
 
 # Sistema de Login (Hsyst Auth) - Documentação Técnica
 ![Logo Hsyst Auth](https://github.com/Hsyst/Hsyst-Auth/blob/main/Hsyst_Auth-semfundo.png)
