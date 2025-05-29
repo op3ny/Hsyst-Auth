@@ -191,4 +191,4 @@ O projeto **Hsyst Auth** está licenciado com a licença "The Unlicense". Portan
 
 ---
 
-Made with love by Humberto/op3n/op3ny!
+Made with love by op3n/op3ny!
